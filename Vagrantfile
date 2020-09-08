@@ -1,0 +1,44 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/buster64"
+  config.vm.provider "virtualbox" do |v|
+	v.memory = 4096
+	v.cpus = 2
+  end
+  config.vm.hostname = "apsi-host"
+  config.vm.network :forwarded_port, guest: 80, host: 80
+  config.vm.network :forwarded_port, guest: 443, host: 443
+  config.vm.network :forwarded_port, guest: 8080, host: 8080
+  config.vm.network :forwarded_port, guest: 8081, host:8081
+  config.vm.network :forwarded_port, guest: 22, host: 2222
+  config.vm.network :forwarded_port, guest: 9090, host: 9090
+
+  config.vm.provision "docker"
+
+  config.vm.provision "shell", inline: <<-SHELL
+
+  # Update the server packages.
+  sudo apt-get update
+
+  # Install GCC for exercises
+  sudo apt-get install -y build-essential
+  sudo apt-get install -y manpages-dev
+  sudo apt-get install -y gcc-multilib
+  sudo apt-get install -y gdb
+
+  # Install git
+  sudo apt-get install -y git
+
+  # Clone the apsi public repo from GitHub
+  sudo -u vagrant git clone https://github.com/Fort-IT/FHNW-apsi.git
+
+  # Show the user that everything just went well
+  echo "*********************************************************************"
+  echo "*********************************************************************"
+  echo "The apsi demo environment has successfully started, have fun!"
+  echo "Login using: ssh vagrant@localhost -p 2222 -i .vagrant/machines/default/virtualbox/private_key"
+  echo "*********************************************************************"
+  echo "*********************************************************************"
+
+  SHELL
+
+end
