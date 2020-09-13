@@ -1,0 +1,8 @@
+Administrative Informationen FHNW APSI 2020
+
+Dozenten und Kontaktdaten: In Slides 1. Vorlesung
+Linux Image fuer Uebungen (ganze Vorlesungsdauer): 
+    Plain Debian 10, Vargrant-File und Anleitung zum erstellen in ...
+    
+Drehbuch: Hier im Verzeichnis
+
