@@ -34,8 +34,16 @@ Vagrant.configure("2") do |config|
   # Show the user that everything just went well
   echo "*********************************************************************"
   echo "*********************************************************************"
+  echo ""
   echo "The apsi demo environment has successfully started, have fun!"
-  echo "Login using: ssh vagrant@localhost -p 2222 -i .vagrant/machines/default/virtualbox/private_key"
+  echo ""
+  echo "Login on Linux/Mac:"
+  echo "  (1) ssh vagrant@localhost -p 2222 -i .vagrant/machines/default/virtualbox/private_key"
+  echo ""
+  echo "Login on Windows:"
+  echo "  (1) Use PuTTYgen to convert .vagrant/machines/default/virtualbox/private_key into a .ppk format key file"
+  echo "  (2) Configure PuTTY for connecting using .ppk key file"
+  echo ""
   echo "*********************************************************************"
   echo "*********************************************************************"
 
