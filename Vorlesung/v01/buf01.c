@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /* Compile with stack-protection off:
- *     gcc -o buf01 -fno-stack-protector buf01.c
+ *     gcc -o buf01 -fno-stack-protector -g buf01.c
  *     buf01 <argument>
  */
 
