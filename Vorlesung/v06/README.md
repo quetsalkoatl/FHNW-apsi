@@ -7,11 +7,11 @@ The setup is pretty simple. The OWASP offers docker images for *WebGoat* and *We
 ## Install docker-compose on the apsi-host
 To start the environment, the OWASP offers a simple *docker-compose.yml* file, which you will in this folder. However, to use `docker-compose`, you will first have to install it. You will find a simple script in this folder which will do the job for you. First make the *install_docker-compose.yml* file executable:
 
-`vagrant@apsi-host:~/FHNW-apsi/Vorlesung/v06$ *sudo chmod u+x install_docker-compose.yml*`
+`vagrant@apsi-host:~/FHNW-apsi/Vorlesung/v06$ sudo chmod u+x install_docker-compose.sh`
 
 and then execute it:
 
-`vagrant@apsi-host:~/FHNW-apsi/Vorlesung/v06$ ./install_docker-compose.yml`
+`vagrant@apsi-host:~/FHNW-apsi/Vorlesung/v06$ ./install_docker-compose.sh`
 
 After installation you may test whether or not `docker-compose` is correctly installed on the demo-machine:
 
@@ -31,10 +31,10 @@ After *WebGoat* and *WebWolf* are running properly, you may just use your favori
 
 or
 
-`http://localhost:8080/WebWolf`
+`http://localhost:9090/WebWolf`
 
 respectively.
 
-If you do so, just register a new user first. You will use this credentials further on to authenticate yourself.
+If you do so, just register a new user first. You will use these credentials further on to authenticate yourself.
 
 *Happy hacking*
