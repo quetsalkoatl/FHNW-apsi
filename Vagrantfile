@@ -19,6 +19,9 @@ Vagrant.configure("2") do |config|
   # Update the server packages.
   sudo apt-get update
 
+  # Install vim
+  sudo apt-get install -y vim
+
   # Install GCC for exercises
   sudo apt-get install -y build-essential
   sudo apt-get install -y manpages-dev
@@ -30,6 +33,12 @@ Vagrant.configure("2") do |config|
 
   # Clone the apsi public repo from GitHub
   sudo -u vagrant git clone https://github.com/Fort-IT/FHNW-apsi.git
+
+  # Install docker-compose
+  echo "Installing docker-compose v1.27.4 on the machine"
+  sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  sudo chmod +x /usr/local/bin/docker-compose
+  echo "Successfully installed, you may now run the docker-compose file using: docker-compose up"
 
   # Show the user that everything just went well
   echo "*********************************************************************"
