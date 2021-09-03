@@ -1,9 +1,0 @@
-Leider ist 
-   https://www.freecodecamp.org/news/hash-table-attack-8e4371fc5261/
-nicht mehr verfuegbar.
-
-Lesen Sie stattdessen bitte:
-   https://lwn.net/Articles/474912/
-und
-   https://arstechnica.com/information-technology/2011/12/huge-portions-of-web-vulnerable-to-hashing-denial-of-service-attack/
-
