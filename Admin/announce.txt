@@ -1,0 +1,62 @@
+  Geschätzte Studierende
+   Am Montag, 20.09.2021 findet die Eintrittsvorlesung
+   in Applikationssicherheit statt und wir freuen uns bereits auf die
+   gemeinsame Zeit mit Ihnen und sind überzeugt, Ihnen mit den Inhalten
+   der Vorlesung und Übungen einen wichtigen Rucksack voller Wissen in der
+   Ausbildung zum Informatik-Ingenieur und darüber hinaus mitgeben zu
+   können.
+   Das Dozenten-Team bringt langjährige Erfahrung aus Forschung und
+   Wirtschaft mit:
+     * Dr. Arno Wagner ([1]arno@wagner.name)
+     * Dr. Michael Schläpfer ([2]michael.schlaepfer@fhnw.ch)
+     * Rolf Wagner ([3]rolf.wagner@fort-it.ch)
+
+   Sie werden morgen mehr über uns erfahren.
+   Die Vorlesung und die Übungen werden voraussichtlich in einer hybriden
+   Unterrichtsform stattfinden. Dies beinhaltet Präsenzunterricht,
+   Vorträge externer Experten zu aktuellen Themen aus der Wirtschaft und
+   Wissenschaft, Gruppenarbeiten und Distanzunterricht. Sie werden in der
+   Eintrittsvorlesung morgen, näheres zum Programm erfahren.
+   Aufgrund der aktuellen Pandemie findet die Eintrittsvorlesung am Montag
+   zwischen 1215 - 1500 Uhr bereits Remote statt. Wir führen den
+   Distanzunterricht jeweils mittels MS Teams durch:
+   [4]https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGUwMGMzYzgtNWNmOS00NTY4LTkzYjktZWQ4NTRiYTRiOTcw%40thread.v2/0?context=%7b%22Tid%22%3a%22e0248d17-f02f-44ea-af9f-eb29cc9ab77c%22%2c%22Oid%22%3a%224abd6ee2-8ce0-4e8c-b590-25ca2e4540f5%22%7d
+
+   Dabei gilt die Regel, dass alle Teilnehmenden ihre Kamera einschalten.
+
+   Arno Wagner wird Sie am Montag online begrüssen und in das Thema
+   Applikationssicherheit und das Programm der Vorlesung einführen.
+
+   Die Unterrichtsmaterialen, wie auch die Slides werden jeweils in GitHub
+   bereitgestellt:
+
+   [5]https://github.com/Fort-IT/FHNW-apsi
+
+   Bis Montag werden der Zeitplan für das Semester mit den jeweiligen
+   Themen, sowie das Drehbuch dort aufzufinden sein. Für den Übungsbetrieb
+   werden Sie im Laufe der ersten Woche eine Anleitung und Links erhalten,
+   um die virtuelle Demo-Umgebung entsprechend selbständig auf Ihrer
+   privaten Infrastruktur aufsetzen zu können.
+   Bei Fragen stehe ich Ihnen gerne zur Verfügung und wünsche Ihnen am
+   Montag einen guten Start.
+   Beste Grüsse
+   Michael Schläpfer
+
+   ____________________________________________
+   Fachhochschule Nordwestschweiz
+   Hochschule für Technik
+   Institut für Mobile und Verteilte Systeme
+
+   Dr. Michael Schläpfer
+   Dozent
+   Bahnhofstrasse 6
+   5210 Windisch
+   ____________________________________________
+
+References
+
+   1. mailto:arno@wagner.name
+   2. mailto:michael.schlaepfer@fhnw.ch
+   3. mailto:rolf.wagner@fort-it.ch
+   4. https://teams.microsoft.com/l/meetup-join/19:meeting_NGUwMGMzYzgtNWNmOS00NTY4LTkzYjktZWQ4NTRiYTRiOTcw@thread.v2/0?context={"Tid":"e0248d17-f02f-44ea-af9f-eb29cc9ab77c","Oid":"4abd6ee2-8ce0-4e8c-b590-25ca2e4540f5"}
+   5. https://github.com/Fort-IT/FHNW-apsi
