@@ -30,7 +30,7 @@ If you choose to set up the Demo Environment manually, you will have to do the f
 #### Virtual machine
 1. Get the latest Debian 11 ISO file and set up a new virtual machine.
 1. Configure the virtual network to forward the following ports from the guest to the host machine: **22 → 2222, 80 → 80, 443 → 443, 8080 → 8080, 8081 → 8081, 9090 → 9090**.
-1. Access your virtual machine using SSH.
+1. Access your virtual machine using SSH on localhost using port 2222 and whatever authentication method you configured.
 1. Install the following tools in the newly created virtual machine:
     - docker
     - build-essential
@@ -38,5 +38,7 @@ If you choose to set up the Demo Environment manually, you will have to do the f
     - gcc-multilib
     - gdb
     - git
-1. Clone this repo within your guest system in order to have the exercise material right in your Demo Environment.
-
+    - curl
+1. Execute the commands under "Install docker-compose" from the Vagrant-file
+1. Clone this repo within your guest system in order to have the exercise material right in your Demo Environment using "git clone https://github.com/Fort-IT/FHNW-apsi.git" un your user directory.
+    
