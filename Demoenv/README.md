@@ -45,5 +45,5 @@ If you configure another user name, you may have to adjust this in some exercise
     - git
     - curl
 1. Execute the commands under "Install docker-compose" from the Vagrant-file
-1. Clone this repo within your guest system in order to have the exercise material right in your Demo Environment using "git clone https://github.com/Fort-IT/FHNW-apsi.git" un your user directory.
+1. Clone this repo within your guest system in order to have the exercise material right in your Demo Environment using "git clone https://github.com/Fort-IT/FHNW-apsi.git" in your user directory.
     
