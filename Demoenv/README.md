@@ -26,10 +26,11 @@ At the end of the installation, you will see the hints on how to access the Demo
 
 ### Setup manually
 If you choose to set up the Demo Environment manually, you will have to do the following with whatever tools you have in place.
+Note that the vagrantfile is human-readable and lists most configuration commands directly.
 
 #### Virtual machine
 1. Get the latest Debian 11 ISO file and set up a new virtual machine.
-1. Configure the virtual network to forward the following ports from the guest to the host machine: **22 → 2222, 80 → 80, 443 → 443, 8080 → 8080, 8081 → 8081, 9090 → 9090**.
+1. Configure the virtual network (NAT) to forward the following TCP ports from the guest to the host machine: **22 → 2222, 80 → 80, 443 → 443, 8080 → 8080, 8081 → 8081, 9090 → 9090**.
 1. Access your virtual machine using SSH on localhost using port 2222 and whatever authentication method you configured.
 1. Install the following tools in the newly created virtual machine:
     - docker
